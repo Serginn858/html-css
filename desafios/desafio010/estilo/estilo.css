@@ -1,0 +1,159 @@
+@charset "UTF-8"; 
+
+@font-face {
+    font-family: 'android';
+    src: url('../fontes/droid.otf') format('opentype');
+} 
+
+:root{
+    --cor0: #EB7232; 
+    --cor1: #FA832B; 
+    --cor2: #368AFF;
+}
+
+* { 
+    margin: 0px; 
+    padding: 0px;
+}
+
+body{
+    background-color: white; 
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center; 
+} 
+
+header{ 
+    display: block;
+    background-color: rgba(175, 165, 165, 0.247);
+    height: 45px; 
+    margin-top: 0px;  
+    margin-right: 0px;
+    border-width: 1px; 
+    border-right: 0;
+    border-style: solid; 
+    border-color: rgb(116, 116, 116);
+    
+} 
+div{ 
+    text-align: center;
+    background-color: var(--cor2);
+    height: 130px; 
+    line-height: 95px;  
+}
+
+div > h1{
+    font-family: 'android'; 
+    font-size: 58px; 
+    font-weight: bold; 
+
+}
+
+nav{
+    margin-top: -29px; 
+}
+
+nav > a{ 
+    text-decoration: none;
+    font-weight: bold; 
+    font-size: 15px;
+    margin-right: 5px;
+    margin-left: 10px;
+}  
+
+nav > a:hover{
+    background-color: rgba(249, 255, 255, 0.151);
+}
+
+main{ 
+    text-align: center;
+    min-width: 300px; 
+    max-width: 1000px; 
+    margin: auto;
+}
+
+main > img{
+    width: 100%; 
+}
+
+
+article > h1{
+    font-size: 55px; 
+    margin-top: 55px;
+} 
+
+article > p{ 
+    text-align: justify; 
+    text-indent: 20px;
+    font-size: 16px;
+    margin-top: 20px; 
+    margin-right: 0px;  
+    margin-left: 0px;
+
+} 
+
+article > h2{ 
+    text-align: left;
+    font-size: 28px;
+    margin-top: 20px;
+} 
+
+#informaçao{ 
+    text-align: center;
+    font-weight: bold;
+} 
+
+img{
+    margin-top: 20px;
+}
+
+iframe{
+   margin-top: 20px; 
+   margin-bottom: 10px;
+   width: 100%; 
+   height: 400px;
+   width: 600px; 
+   margin: auto;
+} 
+
+aside{
+   text-align: justify; 
+} 
+
+aside > h3{ 
+    text-align: center;
+    font-size: 25px; 
+    margin-top: 10px;
+    margin-bottom: 10px; 
+} 
+
+aside > p{ 
+    font-size: 15px; 
+    text-indent: 20px; 
+    margin-top: 10px; 
+    margin-bottom: 10px;
+} 
+
+aside > ul{ 
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside; 
+    columns: 2;
+} 
+
+footer{
+    background-color: var(--cor2);
+    height: 100px; 
+    margin-top: 20px; 
+    border-width: 1px; 
+    border-style: solid;
+    border-color: rgb(202, 202, 202); 
+    border-right: 0px; 
+    border-bottom: 0px; 
+    border-left: 0px;
+} 
+
+footer > p{ 
+    text-align: center;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 100px;
+}
