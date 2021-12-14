@@ -8,16 +8,24 @@
     <style>
         body{
             height: 100vh;
-            background-color:black; 
-            background-image: url(imagens/wallpaper002.jpg); 
+            /*background-color:black; 
+            background-image: url('imagens/wallpaper002.jpg'); 
             background-position: center center; 
             background-repeat: no-repeat;
-            background-repeat: cover;
+            background-sizet: cover;  
+            background-attachment: fixed;*/
+            
+            /*Shorthand - background 
+               color -> position -> repeat -> [size] -> attachment
+            */ 
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         } 
 
         main{
             background-color: white;
-            width: 400px; 
+            max-width: 400px; 
             padding: 10px; 
             margin: auto; 
             border-width: 1px; 
@@ -30,7 +38,7 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil recusandae quod, non libero magnam veritatis? Doloremque ab autem consequuntur esse, perspiciatis, facere, voluptatum commodi in optio quis ut eveniet cum?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae fuga minus ducimus nesciunt soluta voluptas natus unde assumenda maxime ut recusandae repellat, voluptatibus facilis illum vero fugit dolorem? Quis, vitae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus assumenda natus reiciendis expedita voluptate voluptas pariatur maiores accusantium in recusandae, sed repellendus, debitis non nam nihil illo eum vitae perspiciatis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil recusandae quod, non libero magnam veritatis? Doloremque ab autem consequuntur esse, perspiciatis, facere, voluptatum commodi in optio quis ut eveniet cum?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae fuga minus ducimus nesciunt soluta voluptas natus unde assumenda maxime ut recusandae repellat, voluptatibus facilis illum vero fugit dolorem? Quis, vitae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus assumenda natus reiciendis expedita voluptate voluptas pariatur maiores accusantium in recusandae, sed repellendus, debitis non nam nihil illo eum vitae perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam harum mollitia amet fuga velit. Fugiat fuga iste, in illo, vitae blanditiis consequuntur est architecto harum, aperiam perferendis molestiae magnam at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptates illo et cupiditate, perspiciatis libero aut consequatur reiciendis rem? Aliquid itaque dolor cumque eius totam, non eos cupiditate sit aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus error, iusto distinctio aperiam ducimus vero explicabo doloribus, atque similique expedita veniam ea suscipit fugiat, earum iure aliquam optio cum ipsam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque suscipit eveniet quisquam blanditiis! Laudantium nemo minima id fuga sunt. Ex labore voluptates dolor beatae minima corporis totam quaerat iusto officiis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit eaque dignissimos ducimus optio excepturi a quasi voluptas, obcaecati consequuntur, iste odio doloribus similique, suscipit reprehenderit assumenda magnam quam recusandae nostrum!</p>
     </main>
     
 </body>
